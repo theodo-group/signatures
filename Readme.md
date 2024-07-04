@@ -1,4 +1,4 @@
-Render: [https://theodo.github.io/signature/](https://theodo.github.io/signature/)
+Render: [https://signatures.theo.do/](https://signatures.theo.do/)
 
 :warning::warning::warning:
 Never delete an image that is on this repo. It may be used in an older version of the signature that someone still uses. If you delete it, someone may have its signature broken.
