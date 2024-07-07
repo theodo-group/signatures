@@ -13,20 +13,17 @@
     <span id="upToDate"> => up to date :)</span>
     <span id="notUpToDate"> => outdated !</span>
   <p>
-  <p>
-    Request new job titles on this <a href="https://www.notion.so/m33/Email-signature-job-titles-db9d97e26f0749bcae1c6450e714aa5f">Notion Page</a>
-  <p>
   <div id="m33-startup-choice"></div>
   <table id="signatureForm">
     <tr>
-      <td>Firstname + Name</td>
+      <td>First name + Last name</td>
       <td></td>
       <td><input type="text" id="nameInput"/></td>
     </tr>
     <tr>
-      <td>Job Title<span id="jobHelp">?</span></td>
+      <td>Job Title</td>
       <td></td>
-      <td><select id="jobSelector"></select></td>
+      <td><input type="text" id="jobInput"/></td>
     </tr>
     <tr id="mail-form">
       <td>E-mail</td>
@@ -53,7 +50,7 @@
       <td>+1</td>
       <td><input type="tel" id="usTelInput"/></td>
     </tr>
-    <tr id="country-form">
+   <!--  <tr id="country-form">
       <td>Country</td>
       <td></td>
       <td>
@@ -64,7 +61,7 @@
           <option value="US">US</option>
         </select>
       </td>
-    </tr>
+    </tr> -->
   </table>
 
   <div id="signature-renderer"></div>
@@ -159,7 +156,7 @@
     </tr>
   </table>
 
-  <div id="warning">
+<!--   <div id="warning">
     <div>
       <h1>READ ME !!</h1>
       A few things you need to know to avoid design breaks.
@@ -169,14 +166,14 @@
       </ol>
       <div id="gotItButton">Got it</div>
     </div>
-  </div>
+  </div> -->
 
   <script src="scripts/jquery-3.6.0.min.js"></script>
   <script src="scripts/config.js"></script>
   <script src="scripts/loadSignatureTemplate.js"></script>
   <script src="scripts/nameInput.js"></script>
   <script src="scripts/mailInput.js"></script>
-  <script src="scripts/jobSelector.js"></script>
+  <script src="scripts/jobInput.js"></script>
   <script src="scripts/telephoneInput.js"></script>
   <script src="scripts/countrySelector.js"></script>
   <script src="scripts/tutorial.js"></script>
