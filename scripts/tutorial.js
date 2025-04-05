@@ -5,7 +5,7 @@ $('#gotItButton').click(function() {
 function setSignatureUpdateTime() {
   var id = $(".chosen-signature").attr("id");
   var key;
-  if(id === 'theodo-signature') {
+  if(id === 'signature-renderer') {
     key = 'theodoLastUpdate';
   }
   if(id === 'bam-signature') {
@@ -15,14 +15,14 @@ function setSignatureUpdateTime() {
 }
 
 $('#tutorial input.copySignature').click(function() {
-  $('#theodo-signature .hidden').remove();
+  $('#signature-renderer .hidden').remove();
   selectContent('chosen-signature');
   this.style.color = 'green';
   setSignatureUpdateTime();
 });
 
 $('#tutorial input.copySignatureCode').click(function() {
-  $('#theodo-signature .hidden').remove();
+  $('#signature-renderer .hidden').remove();
   // display signature's code
   var code = $('.chosen-signature').html();
   code = code.replace(/&/g, '&amp;');
