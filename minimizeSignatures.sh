@@ -8,5 +8,6 @@ htmlmin -o signatureTemplates/theodo-cloud-signature.min.html signatureTemplates
 htmlmin -o signatureTemplates/theodo-data-ai-signature.min.html signatureTemplates/theodo-data-ai-signature.html
 htmlmin -o signatureTemplates/theodo-fintech-signature.min.html signatureTemplates/theodo-fintech-signature.html
 htmlmin -o signatureTemplates/theodo-govtech-signature.min.html signatureTemplates/theodo-govtech-signature.html
+htmlmin -o signatureTemplates/theodo-extend-signature.min.html signatureTemplates/theodo-extend-signature.html
 echo 'signature templates minimized'
 echo 'You need to update signature update dates in config.js'

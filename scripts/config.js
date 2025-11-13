@@ -53,6 +53,15 @@ var config = {
       country: true
     }
   },
+  TheodoExtend: {
+    signatureTemplate: "signatureTemplates/theodo-extend-signature.min.html",
+    lastUpdate: new Date("11/13/2025"),
+    logo: "images/logoTheodoExtend.png",
+    form: {
+      mail: false,
+      country: true
+    }
+  },
   TheodoGovTech: {
     signatureTemplate: "signatureTemplates/theodo-govtech-signature.min.html",
     lastUpdate: new Date("06/16/2024"),
